@@ -15,6 +15,7 @@ let buttonTG = document.querySelector('.telegram_button'),
     hamburgerBtn = document.querySelector('.hamburger'),
     hamburgerMenu = document.querySelector('.hamburger_menu'),
     arrowUp = document.querySelector('.to_up'),
+    telegram = document.querySelector('.telegram'),
     links = document.querySelectorAll('.a');
 
 hamburgerBtn.addEventListener('click',()=>{
@@ -46,6 +47,11 @@ $('a[href*="#"]').click(function() {
     return false;
 });
 
+
+telegram.addEventListener('click',()=>{
+    window.open('https://t.me/sashatokhin');
+    
+});
 
 buttonTG.addEventListener('click',() =>{
     window.open('https://t.me/mayakowskiybot');
