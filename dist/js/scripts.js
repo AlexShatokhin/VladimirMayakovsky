@@ -54,7 +54,7 @@ telegram.addEventListener('click',()=>{
 });
 
 buttonTG.addEventListener('click',() =>{
-    window.open('https://t.me/mayakowskiybot');
+    window.open('https://t.me/maykovsky_bot');
 
 });
 
